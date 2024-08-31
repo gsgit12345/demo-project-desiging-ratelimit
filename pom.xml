@@ -5,6 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>demo-project-ratelimiter-onapplicationlevel-with-multipleservers</module>
+        <module>demo-project-application-and-endpoint-level-ratelimiter</module>
     </modules>
 
 
