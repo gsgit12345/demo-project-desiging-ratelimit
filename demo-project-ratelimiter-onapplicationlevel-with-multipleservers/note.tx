@@ -1,0 +1,16 @@
+mvn clean install -Dspring.profiles.active=dev   and second instance run normally
+
+curl --location --request POST 'http://localhost:8080/api' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "question": "How do you do?"
+}'
+
+
+Execute Redis, locally:
+
+docker pull redis:latest
+docker run -d -p 6379:6379 --name rate-limit redis
+
+
+https://www.innoq.com/en/blog/2024/03/distributed-rate-limiting-with-spring-boot-and-redis/       --link
