@@ -6,6 +6,7 @@
     <modules>
         <module>demo-project-ratelimiter-onapplicationlevel-with-multipleservers</module>
         <module>demo-project-application-and-endpoint-level-ratelimiter</module>
+        <module>demo-project-ratelimiter-withoutlibbrary</module>
     </modules>
 
 
